@@ -86,6 +86,7 @@
     enabled: false
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/glass.rsi
+  #we need to remove the opaque component
   - type: Fixtures
     fixtures:
     - shape:
@@ -95,7 +96,6 @@
       mask:
       - MobImpassable
       layer:
-      - Opaque
       - Impassable
       - MobImpassable
       - VaultImpassable
